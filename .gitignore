@@ -1,0 +1,26 @@
+# General
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.DS_Store
+
+# Virtual Environments
+venv/
+.env
+*.env
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.py[cod]
+
+# Mypy
+.mypy_cache/
+*.mypy_cache/
+.mypy_cache/*
