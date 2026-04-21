@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'task_manager',
     'rest_framework',
+    # MCP server app to allow OpenClaw to interact via Django MCP protocol
+    # The package module name is `mcp_server` (pip package: django-mcp-server)
+    'mcp_server',
 ]
 
 MIDDLEWARE = [
