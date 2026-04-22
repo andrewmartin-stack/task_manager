@@ -6,4 +6,4 @@ djangorestframework==3.15.2
 sqlparse==0.5.5
 # django-mcp-server is not available on some private PyPI mirrors. Use
 # the GitHub source to ensure installs succeed in restricted environments.
-git+https://github.com/omarbenhamid/django-mcp-server.git@0.5.7#egg=django-mcp-server
+git+https://github.com/omarbenhamid/django-mcp-server.git@main#egg=django-mcp-server
