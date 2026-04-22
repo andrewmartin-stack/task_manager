@@ -15,7 +15,6 @@ venv/
 .venv/
 .venv314/
 ENV/
-.python-version
 
 # Django specific
 *.log
