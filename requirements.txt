@@ -4,7 +4,6 @@ Django==4.2.30
 # (3.17.1 was not found on some indexes). Use 3.15.2 which is compatible.
 djangorestframework==3.15.2
 sqlparse==0.5.5
-# Use the latest PyPI release of django-mcp-server which is available
-# for our Python/Django environment. 0.4.0 was not resolvable in some
-# pip/index configurations; 0.5.7 is available on PyPI.
-django-mcp-server==0.5.7
+# django-mcp-server is not available on some private PyPI mirrors. Use
+# the GitHub source to ensure installs succeed in restricted environments.
+git+https://github.com/omarbenhamid/django-mcp-server.git@0.5.7#egg=django-mcp-server
